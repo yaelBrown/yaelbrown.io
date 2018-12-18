@@ -1,10 +1,10 @@
 
 body {
   background: #282828;
-  color: #898989;
+  color: #989898;
   font-family: 'Poppins', helvetica;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
@@ -21,19 +21,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h2 {
-  color: #292929;
-  font-weight: 600;
-}
-
-h4 {
-  color: #292929;
-  font-size: 14px;
-  font-weight: 600;
-}
-
 a {
-  color: #292929;
+  color: #989898;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -51,7 +40,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -78,6 +67,7 @@ p {
   font-size: 15px;
   color: #999999;
   line-height: 28px;
+  text-align: center;
 }
 
 ::-moz-selection {
@@ -106,6 +96,10 @@ p {
   color: #fff;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  Navbar
+/*-----------------------------------------------------------------------------------*/
+
 nav {
   position: fixed;
   background: #fff;
@@ -128,7 +122,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', helvetica, sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -139,7 +133,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Poppins', helvetica, sans-serif;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -165,7 +159,9 @@ nav ul li a {
   color: #afafaf;
 }
 
-
+/*-----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
 
 #header {
   background: url("../img/heroPic.png") repeat scroll center center / cover;
@@ -217,76 +213,14 @@ nav ul li a {
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
-#portfolio p{
-  position: relative;
-  padding-bottom: 500px;
+div.##portfolio.portfolio {
   text-align: center;
 }
 
-
-/*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: #f7f7f7;
-  padding-bottom: 60px;
+p.portfolio {
   position: relative;
-}
-
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#journal .journal-block .journal-info {
-  position: relative;
-}
-
-.journal-block .journal-info img {
-  max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
+  padding-bottom: 500px;
+  text-align: center;
 }
 
 /*-----------------------------------------------------------------------------------*/
