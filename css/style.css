@@ -163,11 +163,14 @@ nav ul li a {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
+
+
 #header {
   background: url("../img/heroPic.png") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
   background-color: #000000;
+  text-align: center;
 }
 
 
@@ -181,22 +184,32 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 3em;
   letter-spacing: 10px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 10px;
+  text-align: center;
   text-transform: uppercase;
   color: #fff;
 }
 
+.header-content h3 {
+  font-size: 1.5em;
+  letter-spacing: 4px;
+}
+
 .header-content p {
-  font-size: 13px;
+  font-size: 1em;
   letter-spacing: 7px;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 30px;
-  text-transform: capitalize;
-  color: #fff;
+  text-transform: none;
+  color: #ffffff;
   font-weight: 500;
+}
+
+.header-content p a, h3 {
+  color: #fff;
 }
 
 .header-content .list-social li {
@@ -215,12 +228,33 @@ nav ul li a {
 
 div.##portfolio.portfolio {
   text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+  max-height: 800px;
+  font-size: 0px;
+}
+
+img.portfolio {
+  width: 200px;
+  height: 200px;
+  margin: 0px;
 }
 
 p.portfolio {
   position: relative;
   padding-bottom: 500px;
   text-align: center;
+}
+
+.grid-item {
+  width: 200px;
+}
+
+.grid-item-width2 {
+  width: 200px;
 }
 
 /*-----------------------------------------------------------------------------------*/
