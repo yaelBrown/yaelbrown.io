@@ -14,26 +14,158 @@
       <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
       <!-- Libraries CSS Files -->
-      <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-
-      <!-- Main Style.css file -->
-      <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <link rel="stylesheet" type="text/css" href="./lib/ionicons/css/ionicons.min.css">
       
-      <!-- JQuery js file  -->
-      <script src="./js/jquery-3.3.1.min.js"></script>
-      
-      <!-- Bootstrap js file -->
-      <script src="./js/bootstrap.bundle.min.js"></script>
-
       <!-- Shortcut Icon -->
       <link rel="shortcut icon" href="img/yb-logo.png">
       
       <title>YaelBrown.io - Yael Brown, Software Engineer - Home</title>
+      <style>
+              
+        body {
+          background: #282828;
+          color: #989898;
+          font-family: 'Poppins', helvetica;
+          font-size: 1em;
+          font-weight: 100;
+          line-height: 20px;
+          letter-spacing: 0.02em;
+          overflow-x: hidden;
+          margin: 0 auto;
+          padding: 0;
+          -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          -o-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          margin: 0;
+        }
+
+        a {
+          color: #989898;
+          text-decoration: none !important;
+          -moz-transition: all 0.5s ease-in-out 0s;
+          -ms-transition: all 0.5s ease-in-out 0s;
+          -o-transition: all 0.5s ease-in-out 0s;
+          -webkit-transition: all 0.5s ease-in-out 0s;
+          transition: all 0.5s ease-in-out 0s;
+        }
+
+        a:hover {
+          -moz-transition: all 0.5s ease-in-out 0s;
+          -ms-transition: all 0.5s ease-in-out 0s;
+          -o-transition: all 0.5s ease-in-out 0s;
+          -webkit-transition: all 0.5s ease-in-out 0s;
+          transition: all 0.5s ease-in-out 0s;
+        }
+
+        a:hover, a:focus {
+          color: #ffffff;
+          text-decoration: underline;
+        }
+
+        p {
+          margin: 25px 0;
+          padding: 0;
+          font-size: 15px;
+          color: #999999;
+          line-height: 28px;
+          text-align: left;
+        }
+
+        ::-moz-selection {
+          background: #b8a07e;
+          color: #fff;
+        }
+
+        ::selection {
+          background: #b8a07e;
+          color: #fff;
+        }
+
+
+        /*-----------------------------------------------------------------------------------*/
+        /*  Header
+        /*-----------------------------------------------------------------------------------*/
+
+
+        #header {
+          background: url("../img/heroPic.png") repeat scroll center center / cover;
+          height: 100vh;
+          width: 100%;
+          background-color: #000000;
+          text-align: center;
+        }
+
+
+        #header .header-content {
+          height: 150vh;
+          text-align: center;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .header-content h1 {
+          font-size: 3em;
+          letter-spacing: 10px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #fff;
+        }
+
+        .header-content h3 {
+          font-size: 1.5em;
+          letter-spacing: 4px;
+        }
+
+        .header-content p {
+          font-size: 1em;
+          letter-spacing: 7px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          text-transform: none;
+          color: #ffffff;
+          font-weight: 500;
+        }
+
+        .header-content a, h3 {
+          color: #FFF;
+        }
+
+
+        /*-----------------------------------------------------------------------------------*/
+        /*  Portfolio
+        /*-----------------------------------------------------------------------------------*/
+
+
+        .portfolio {
+          margin: auto;
+          padding: 0;
+        }
+
+        img .portfolioThumbs {
+          width: 30%;
+          height: 30%;
+          margin: 10px;
+        }
+
+      </style>
     </head>
-    
+  
+
+
+
     <body>
+
       <!-- start section: Header -->
-      <div id="header" class="home">      
+      <div id="header">      
         <div class="container">
           <div class="header-content">
             <h1>Yael Brown</h1>
@@ -42,51 +174,62 @@
               <a href="https://www.instagram.com/_yaelbrown/"><i class="ion-social-instagram"></i></a>
               <a href="https://github.com/yaelBrown"><i class="ion-social-github"></i></a>
               <a href="https://twitter.com/_yaelBrown"><i class="ion-social-twitter"></i></a>
+              <a href="#contact"><i class="ion-android-mail"></i></a>
             </p>
-          </div>w
+          </div>
+        </div>
       </div>
       
     <!-- start section: Profolio section -->
-    <div class="container">
-      
-      <!-- Masonry js file for displaying project thumbnails. -->
-      <script src=./js/masonry.pkgd.min.js></script>
-          <div class="grid">
-            <div class="portfolio" id="#portfolio">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/1.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/2.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/3.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/4.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/6.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/8.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/9.jpg">
-              <img class="portfolio" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/7.jpg">
-            </div>
-          </div>
-          
-<!-- add thumbnails of some projects and make them links -->
-<!-- https://codepen.io/dudleystorey/pen/eAqzk -->
-<!-- https://masonry.desandro.com/layout.html -->
-
-
-		</div> <!-- container-->
-      
-      <!-- start section: footer -->
-		<div class="container">
-          <p>This is the footer</p>
-		</div>
-      
-      
-      <p>This page loaded correctly.</p>
-      <h1>H1</h1>
-      <h2>H2</h2>
-      <h3>H3</h3>
-      <h4>H4</h4>
-      <h5>H5</h5>
-      <h6>H6</h6>
-      
-      <a href="#">This is a link</a>
-        
+    <div class="container portfolio">
+      <div class="row">
+        <p>This is portfolio section</p>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>          
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+        <div class="col-sm">
+          <img class="portfolioThumbs" src="https://via.placeholder.com/400">
+        </div>
+      </div>                    
+    </div>
 
   </body>
+  
+
+
+  <!-- start section: footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <p>This is footer section</p>
+      </div>
+    </div>
+  </footer>
 </html>
