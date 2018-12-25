@@ -138,7 +138,10 @@
         .header-content a, h3 {
           color: #FFF;
         }
-
+      
+        p.socials {
+          text-align: center;
+        }
 
         /*-----------------------------------------------------------------------------------*/
         /*  Portfolio
@@ -150,10 +153,14 @@
           padding: 0;
         }
 
-        img .portfolioThumbs {
-          width: 30%;
-          height: 30%;
-          margin: 10px;
+        div.row {
+          margin:1px;
+        }
+
+        img.portfolioThumbs {
+          width: 300px;
+          height: 300px;
+          margin: auto;
         }
 
       </style>
@@ -170,7 +177,7 @@
           <div class="header-content">
             <h1>Yael Brown</h1>
             <h3>Software Engineer</h3>
-            <p>
+            <p class="socials">
               <a href="https://www.instagram.com/_yaelbrown/"><i class="ion-social-instagram"></i></a>
               <a href="https://github.com/yaelBrown"><i class="ion-social-github"></i></a>
               <a href="https://twitter.com/_yaelBrown"><i class="ion-social-twitter"></i></a>
@@ -217,11 +224,28 @@
         <div class="col-sm">
           <img class="portfolioThumbs" src="https://via.placeholder.com/400">
         </div>
-      </div>                    
+      </div>
+      <hr>
     </div>
 
+
+    <!-- Instagram feed -->
+    <div class="container">
+    <div class='embedsocial-instagram' data-ref="d2b7fe1f5bf36d15323ec4bc57a63d2c6fd96e6c"></div>
+    <script>
+    (function(d, s, id){var js; 
+      if (d.getElementById(id)) {
+        return;
+
+        } 
+      js = d.createElement(s); 
+      js.id = id; 
+      js.src = "https://embedsocial.com/embedscript/in.js"; 
+      d.getElementsByTagName("head")[0].appendChild(js);
+    }(document, "script", "EmbedSocialInstagramScript"));
+    </script>
+    </div>
   </body>
-  
 
 
   <!-- start section: footer -->
