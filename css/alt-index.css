@@ -6,13 +6,15 @@
 #sidebar {
   width: 200px;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  padding-left: 10px;
   height: 100vh;
   z-index: 999;
-  background: #7386D5;
+  background: ##333;
   color: #fff;
   transition: all 0.3s;
+  box-shadow: 1px 1px 5px #000;
 }
 
 .content {
@@ -23,12 +25,19 @@
   width: auto;
 }
 
+.textItems {
+  clear: both;
+  padding-top: 10px;
+}
+
 /* 
   Masonry CSS
 */
 
 .grid {
   background: #DDD;
+  display: inline;
+  clear: both;
 }
 
 .grid-item { 
