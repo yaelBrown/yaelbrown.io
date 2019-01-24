@@ -1,0 +1,30 @@
+{
+  "name": "yaelbrown.io",
+  "version": "1.0.0",
+  "description": "Portfolio Website of Full-Stack Developer Yael Brown",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
+    "masonry-layout": "^4.2.2",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelBrown/yaelbrown.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaelBrown/yaelbrown.io/issues"
+  },
+  "homepage": "https://github.com/yaelBrown/yaelbrown.io#readme"
+}

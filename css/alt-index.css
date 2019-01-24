@@ -1,3 +1,7 @@
+/*
+  Sidebar 
+*/
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -16,6 +20,49 @@
   transition: all 0.3s;
   box-shadow: 1px 1px 5px #000;
 }
+
+.sidebar-header {
+  margin-top: 2em;
+}
+
+.yb-h3 {
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+.yb-p {
+  margin: 0px;
+  text-align: center;
+}
+
+.yb-p-title {
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+
+.yb-p-loc {
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+.menu {
+  padding-bottom: 3em;
+  text-align: center;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+li {
+  padding-bottom: .25em;
+}
+
+/*
+  Body
+*/
 
 .content {
   padding-left: 200px;
