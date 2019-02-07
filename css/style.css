@@ -2,6 +2,11 @@
   border: 2px solid #fff;
 }
 
+.center {
+  margin: 0 auto 0 auto;
+  right: 0;
+}
+
 * {
   /* used as placeholder */
 }
@@ -9,7 +14,7 @@
 body {
   background: #000;
   color: #989898;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 100;
   line-height: 20px;
