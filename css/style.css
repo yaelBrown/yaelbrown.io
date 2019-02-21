@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.02em;
   overflow-x: hidden;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px 0px 40px 0px;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
