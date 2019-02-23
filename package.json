@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "masonry-layout": "^4.2.2",
     "nodemon": "^1.18.9"
