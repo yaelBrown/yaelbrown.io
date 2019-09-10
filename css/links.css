@@ -65,7 +65,16 @@ li {
 */
 
 .content {
-  padding-left: 200px;
+  margin-left: 210px;
+  padding-top: 40px;
+}
+
+.links h4 {
+  margin: 10px 0px 10px 0px;
+}
+
+.links p {
+  margin: 0;
 }
 
 /* 

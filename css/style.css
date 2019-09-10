@@ -13,7 +13,7 @@
 
 body {
   background: #000;
-  color: #989898;
+  color: #fff;
   font-family: 'Nunito', 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 100;
@@ -60,7 +60,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #fff;
   line-height: 28px;
   text-align: left;
 }
@@ -73,81 +73,4 @@ p {
 ::selection {
   background: #b8a07e;
   color: #fff;
-}
-
-
-/*-----------------------------------------------------------------------------------*/
-/*  Header
-/*-----------------------------------------------------------------------------------*/
-
-
-#header {
-  background: url("../img/heroPic.png") repeat scroll center center / cover;
-  height: 100vh;
-  width: 100%;
-  background-color: #000000;
-  text-align: center;
-}
-
-
-#header .header-content {
-  height: 150vh;
-  text-align: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.header-content h1 {
-  font-size: 3em;
-  letter-spacing: 10px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.header-content h3 {
-  font-size: 1.5em;
-  letter-spacing: 4px;
-}
-
-.header-content p {
-  font-size: 1em;
-  letter-spacing: 7px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  text-transform: none;
-  color: #ffffff;
-  font-weight: 500;
-}
-
-.header-content a, h3 {
-  color: #FFF;
-}
-
-p.socials {
-  text-align: center;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*  Portfolio
-/*-----------------------------------------------------------------------------------*/
-
-
-.portfolio {
-  margin: auto;
-  padding: 0;
-}
-
-div.row {
-  margin:1px;
-}
-
-img.portfolioThumbs {
-  width: 300px;
-  height: 300px;
-  margin: auto;
 }
